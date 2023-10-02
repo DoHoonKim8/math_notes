@@ -1,0 +1,24 @@
+- metric space → in real analysis, we usually think about $\mathbb{R}^k$
+    - convergence
+    - Cauchy sequence
+        - in every metric space, every convergent sequence is Cauchy
+    - compact metric space → on compact metric space, we have various useful properties
+        - any sequence in compact metric space $X$ has subsequence which converges to a point in $X$
+        - every Cauchy sequence in compact metric space is convergent
+        - every Cauchy sequence in $\mathbb{R}^k$ is convergent
+    - we also have every bounded sequence has Cauchy subsequence
+        - In $\mathbb{R}^k$, every bounded sequence has convergent subsequence → **Bolzano-Weierstrass Theorem**
+
+- Continuity
+    - In $\mathbb{R}^k$, every closed and bounded set is compact, and vice versa
+    - continuous function maps compact metric space into a compact set
+    - uniform continuity
+        - $\delta$ just depends on $\epsilon$
+        - on compact metric space, every continuous function is uniform continuous function
+- sequence of functions
+    - uniform metric & uniform convergence
+        - $\{f_n\}$ uniform converges to $f$ and $f_n$ are continuous, then $f$ is continuous
+        - $\{f_n\}$ is uniformly convergent if and only if $\{f_n\}$ is uniformly Cauchy
+    - $\mathcal{C}(X) = \{f: X \rightarrow \mathbb{R} \;\vert \;f \;\text{is continuous and bounded} \}$ with uniform metric forms complete metric space
+    - $\mathcal{F} \subset \mathcal{C}(X)$ is **precompact** if and only if $\mathcal{F}$ is uniformly bounded and equicontinuous → **Arzela-Ascoli Theorem**
+        - standard diagonal argument
